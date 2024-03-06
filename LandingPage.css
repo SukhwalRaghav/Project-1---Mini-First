@@ -1,0 +1,70 @@
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+   background-color: #f4f8fb;
+   text-align: center;
+}
+Header{
+    text-align: center;
+    color: white;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*aqwWes0iy499vAmoYNGssA.jpeg') ;
+    background-size:cover ;
+    background-position: center;
+    padding: 75px 10px;
+}
+header h1{
+    font-size: 50px;
+    color: rgb(219, 187, 187);
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+header h3{
+    color: rgb(215, 197, 175);
+    margin-bottom: 30px;
+}
+.action-button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px  20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.action-button:hover{
+    background-color: darkblue;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.feature{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#marq1{
+    margin: 10px;
+    padding: 10px;
+    border-radius: solid;
+    background-color: wheat;
+    color: rgb(45, 32, 36);
+    font-size: large;
+    font-weight: bold;
+}
